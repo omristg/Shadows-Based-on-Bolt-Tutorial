@@ -14,6 +14,7 @@ TagManager:
   - EnemyGreen
   - Light
   - Vertical
+  - LightEffect
   layers:
   - Default
   - TransparentFX
