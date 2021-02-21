@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 3147636055321057443}
   - component: {fileID: 4749814461351836934}
   - component: {fileID: 1254820100}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: ProjectilesPickup
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4887,6 +4887,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PickupLight
+      objectReference: {fileID: 0}
+    - target: {fileID: 1924132808996271156, guid: 20d72bc4559c5f143903503107448845,
+        type: 3}
+      propertyPath: m_Layer
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 1924132808996271157, guid: 20d72bc4559c5f143903503107448845,
         type: 3}
