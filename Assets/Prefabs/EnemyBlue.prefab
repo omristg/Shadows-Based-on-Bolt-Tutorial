@@ -13,9 +13,9 @@ GameObject:
   - component: {fileID: 2369334786370628153}
   - component: {fileID: -644699501866822631}
   - component: {fileID: -65660243911484126}
-  - component: {fileID: 6043060184777749676}
   - component: {fileID: 6043060184777749675}
   - component: {fileID: 1995847937}
+  - component: {fileID: 990018781204484643}
   m_Layer: 12
   m_Name: EnemyBlue
   m_TagString: EnemyBlue
@@ -74,9 +74,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 10
+  m_SortingLayerID: 816126297
+  m_SortingLayer: 1
+  m_SortingOrder: 6
   m_Sprite: {fileID: 1344780287051860636, guid: cb764136d81ac9e4b98e238b2f86526d,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -141,22 +141,6 @@ MonoBehaviour:
     _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
     _objectReferences:
     - {fileID: 11400000, guid: a74c5c3d2001749409f39b2ce43a3a39, type: 2}
---- !u!58 &6043060184777749676
-CircleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7159694140694403364}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: -0.01621437, y: 0.49}
-  serializedVersion: 2
-  m_Radius: 0.2551422
 --- !u!95 &6043060184777749675
 Animator:
   serializedVersion: 3
@@ -192,6 +176,32 @@ CapsuleCollider2D:
   m_Offset: {x: -0.035473585, y: -0.10642028}
   m_Size: {x: 0.7285819, y: 0.9981811}
   m_Direction: 0
+--- !u!61 &990018781204484643
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7159694140694403364}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.04044342, y: 0.4523958}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 2.1333334, y: 2.1333334}
+    newSize: {x: 0.9, y: 1.55}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.58239746, y: 0.06767869}
+  m_EdgeRadius: 0
 --- !u!1001 &4394598995223181274
 PrefabInstance:
   m_ObjectHideFlags: 0

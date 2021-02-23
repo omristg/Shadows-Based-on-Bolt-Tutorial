@@ -15,8 +15,8 @@ GameObject:
   - component: {fileID: 867916875223993298}
   - component: {fileID: 7923916807094698649}
   - component: {fileID: 1502760510}
-  - component: {fileID: 2063540304}
   - component: {fileID: 248488488}
+  - component: {fileID: 4309347184583482763}
   m_Layer: 12
   m_Name: EnemyPurple
   m_TagString: EnemyPurple
@@ -75,9 +75,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1401015027
-  m_SortingLayer: 0
-  m_SortingOrder: 5
+  m_SortingLayerID: 816126297
+  m_SortingLayer: 1
+  m_SortingOrder: 10
   m_Sprite: {fileID: 2302870733942359475, guid: 3ef839971a1b7fd4285df68de95a8c2f,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -176,22 +176,6 @@ MonoBehaviour:
   _data:
     _json: '{"declarations":{"collection":{"$content":[],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
---- !u!58 &2063540304
-CircleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1618294266951460}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0.17, y: 0.89}
-  serializedVersion: 2
-  m_Radius: 0.22392815
 --- !u!70 &248488488
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -208,6 +192,32 @@ CapsuleCollider2D:
   m_Offset: {x: 0.14491749, y: -0.11939144}
   m_Size: {x: 1.1148243, y: 1.7935348}
   m_Direction: 0
+--- !u!61 &4309347184583482763
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1618294266951460}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.17744255, y: 0.99507606}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 2.1333334, y: 2.1333334}
+    newSize: {x: 0.9, y: 1.55}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.9176388, y: 0.06767869}
+  m_EdgeRadius: 0
 --- !u!1001 &1137329461230657161
 PrefabInstance:
   m_ObjectHideFlags: 0
