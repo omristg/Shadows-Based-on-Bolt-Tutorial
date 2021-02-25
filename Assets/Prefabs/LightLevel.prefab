@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 8584887955048307976}
   - component: {fileID: 8584887955048307977}
   - component: {fileID: 1150038412359441616}
+  - component: {fileID: -6058584843205780320}
   m_Layer: 15
   m_Name: LightLevel
   m_TagString: Light
@@ -163,6 +164,18 @@ MonoBehaviour:
     _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
     _objectReferences:
     - {fileID: 11400000, guid: ddf6b9cdb06afd74e9890ebfdb395458, type: 2}
+--- !u!114 &-6058584843205780320
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8584887955048307974}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 305935433, guid: c8d0ad23af520fe46aabe2b1fecf6462, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &9023878046200332011
 PrefabInstance:
   m_ObjectHideFlags: 0
